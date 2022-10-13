@@ -2,11 +2,15 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    background-color: #dcdcdc;
+}
 .top {
     position: relative;
     width: 940px;
     margin: 0 auto;
     overflow: visible;
+    background-color: #dcdcdc;
 }
 img {
     border: 0px;
@@ -47,11 +51,159 @@ form#search input {
     background-color: transparent;
     border: 0;
 }
-.row {
+.container {
     display: flex;
-    background-color: aqua;
+    background-color: #dcdcdc;
+    justify-content: space-between;
+    height: 1000px;
+    margin: 10px;
+}
+.row {
+    justify-content: space-between;
+    flex: 1;
+    margin: 10px;
+    display: block;
+}
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    margin: 10px;
 }
 .col {
-    background-color: aquamarine;
+    flex: 3;
+    padding: 10px;
+    margin: 10px;
 }
+.col-2 {
+    flex: 2;
+    padding: 0px;
+    margin: 10px;
+    background-image: url(img/monitor.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+#rojo strong {
+    color: red;
+}
+ul {
+    margin: 12px;
+    list-style-type: none;
+}
+.row-3 {
+    margin: 10px;
+    height: 20%;
+    width: 400px;
+}
+.row-3 span {
+    color: rgb(0, 157, 255);
 
+}
+.row-4 {
+    margin: 10px;
+    height: 20%;
+}
+.derecha {
+    background-color: white;
+    margin: 10px;
+    flex: 3;
+    display: block;
+}
+.row-5 {
+    background-color: aqua;
+    height: 30%;
+    margin: 10px;
+    display: flex;
+}
+.row-6 {
+    background-color: aqua;
+    height: 30%;
+    margin: 10px;
+}
+.computer {
+    height: 100px;
+    width: 250px;
+    align-content: center;
+    margin: 10px;
+    margin-top: 25%;
+}
+.computer h4 {
+    font-weight: normal;
+    color: #fff;
+    font-size: 16px;
+}
+.computer span.version {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+.computer span.azul {
+    color: aqua;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.computer p {
+    color: #fff;
+    font-size: 12px;
+}
+.computer a.button {
+    display: block;
+    width: 224px;
+    padding: 5px 0;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(#1c868c, #186368);
+    border-top: solid 1px #085e64;
+    border-right: solid 1px #1f6367;
+    border-bottom: solid 1px #134143;
+    border-left: solid 1px #1f6367;
+    transition-duration: 0.3s;
+    transition-property: background-image;
+    text-decoration: none;
+    box-shadow: 0 1px 0 #148a92;
+}
+.row-7 {
+    margin: 10px;
+    font-size: xx-large;
+    height: 15%;
+}
+.row-8 {
+    margin: 10px;
+    background-color: #dcdcdc;
+    height: 30%;
+    width: 300px;
+    border-radius: 7px;
+}
+.row-8 a {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 157, 255);
+}
+.row-9 {
+    margin: 10px;
+    height: 30%;
+    width: 350px;
+}.row-9 span {
+    color: rgb(0, 157, 255);
+}
+.row-9 p {
+    font-size: large;
+}
+.col-3 {
+    background-color: palegreen;
+    flex: 1;
+    margin: 10px;
+}
+.col-4 {
+    background-color: palegreen;
+    flex: 1;
+    margin: 10px;
+}
