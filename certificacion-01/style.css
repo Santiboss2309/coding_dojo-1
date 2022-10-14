@@ -114,15 +114,17 @@ ul {
     display: block;
 }
 .row-5 {
-    background-color: aqua;
-    height: 30%;
+    background-color: #dcdcdc;
+    height: 20%;
     margin: 10px;
     display: flex;
+    border-radius: 7px;
 }
 .row-6 {
     background-color: aqua;
-    height: 30%;
+    height: 20%;
     margin: 10px;
+    padding-top: 10px;
 }
 .computer {
     height: 100px;
@@ -198,12 +200,44 @@ ul {
     font-size: large;
 }
 .col-3 {
-    background-color: palegreen;
     flex: 1;
     margin: 10px;
 }
+.col-3 a {
+    text-decoration: none;
+    color: rgb(0, 157, 255);
+    line-height: 60px;
+}
+.col-3 h2 {
+    color: red;
+    line-height: 50px;
+}
+.col-3 p {
+    font-size: large;
+}
 .col-4 {
-    background-color: palegreen;
     flex: 1;
+    margin: 10px;
+}
+.col-4 a {
+    text-decoration: none;
+    color: rgb(0, 157, 255);
+    line-height: 60px;
+}
+.col-4 h2 {
+    color: red;
+    line-height: 50px;
+}
+.col-4 p {
+    font-size: large;
+}
+.row-10 {
+    background-color: palegreen;
+    height: 40%;
+    margin: 10px;
+}
+.row-11 {
+    background-color: palegreen;
+    height: 40%;
     margin: 10px;
 }
